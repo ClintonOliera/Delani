@@ -1,4 +1,32 @@
-  #design-paragraph, #development-paragraph, #product-paragraph{
+
+ .home {
+   background-image: url('../images/backgrounds/home_img.jpg');
+   background-size: cover;
+   background-repeat: no-repeat;
+   color: white;
+   text-align: center;
+   padding-top: 17%;
+   font-family: cursive;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ #design-paragraph, #development-paragraph, #product-paragraph{
   display: none;
 } 
 #dec1,#dec2,#dec3,#dec4,#dec5,#dec6,#dec7,#dec8{
