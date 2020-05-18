@@ -225,7 +225,7 @@ footer p{
     margin-right: 10%; 
   }
 }
-@media only screen and (min-width: 325px){
+@media only screen and (min-width: 825px){
   #dec1,#dec2,#dec3,#dec4,#dec5,#dec6,#dec7,#dec8{
     width: 100%;
     height: 100%;
