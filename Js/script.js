@@ -82,3 +82,18 @@ $(document).ready(function(){
     $("#dec8").hide();
   });
 });
+
+$(document).ready(function(){
+ $("form#form2").submit(function(event){
+   var name = $("input#yourname").val();
+   var email = $("input#youremail").val();
+   var message = $("textarea#comment").val();
+   event.preventDefault();
+   if ($("input#yourname").val() && $("input#youremail").val()){
+    alert (name + ", we have received your message. Thank you for contacting us.");
+  }
+  else{
+    alert("please enter your name and email");
+  }
+ });
+});
