@@ -120,6 +120,14 @@ button{
   padding-bottom: 30px;
   margin-bottom: 20px;
 }
+footer{
+  text-align: center;
+  padding-top: 30px;
+  font-family: cursive;
+}
+footer p{
+  margin-top: 10px;
+}
  
  
  
@@ -139,6 +147,8 @@ button{
  
  #design-paragraph, #development-paragraph, #product-paragraph{
   display: none;
+  font-family: 'Copse', serif;
+  font-size: 16px;
 } 
 #dec1,#dec2,#dec3,#dec4,#dec5,#dec6,#dec7,#dec8{
   display: none;
